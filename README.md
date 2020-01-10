@@ -1,0 +1,2 @@
+# power-analysis-for-multilevel-modeling-in-R
+It's difficult to estimate power in multilevel contexts. I planned to run an experiencing sampling study with repeated measures of emotional valence and social context, along with one-time measurements of attachment security. I wrote the following R code to figure out (a) sample size and (b) number of experience sampling measurements required to ensure at least 80% power for all main and interaction effects of interest. 
