@@ -196,5 +196,5 @@ Simulation(Attach=.3, pAlone=.5,
            AloneCoef=.2,
            n=200, k=25,
            e1sd=1, e2sd=.6, 
-           y11=.1, y12=.1, y13=.1, trials=100)
+           y11=.1, y12=.1, y13=.1, trials=1000)
 
