@@ -1,5 +1,5 @@
-# power-analysis-for-multilevel-modeling-in-R
-There's no clear-cut way to estimate power in multilevel contexts. I planned to run an experiencing sampling study with repeated measures of emotional valence and social context, along with one-time measurements of attachment anxiety and attachment avoidance. I wrote the following R code to figure out (a) sample size and (b) number of experience sampling measurements required to ensure at least 80% power for all main and interaction effects of interest. 
+# Power Analysis for Multilevel Modeling in R
+There's no clear-cut way to estimate power in multilevel contexts. I planned to run an experiencing sampling study with repeated measures of emotional valence and social context, along with one-time measurements of attachment anxiety and attachment avoidance. I wrote the R code in this repository to figure out (a) sample size and (b) number of experience sampling measurements required to ensure at least 80% power for all main and interaction effects of interest. 
 
 The code simulates data for one such study, replicates that study 1000 times, and runs a two-level model on each dataset. The Simulation function allows most model parameters to be varied (if you want to play around with the effect of changing certain parameters on power). 
 
