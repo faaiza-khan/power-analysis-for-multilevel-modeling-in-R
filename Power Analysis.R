@@ -181,7 +181,7 @@ Simulation <- function(Attach, pAlone, AnxCoef, AvoidCoef, AloneCoef,
 # based on existing data where similar variables were analysized with MLM 
 # (continuous outcome, binary level 1 predictor, continuous level 2 predictors) 
 
-# Power with 32 reports (4 per day for 8 days)
+# Power with 200 participants and 32 repeated measurements
 Simulation(Attach=.3, pAlone=.5,
            AnxCoef=.2, AvoidCoef=.2,
            AloneCoef=.2,
@@ -189,8 +189,7 @@ Simulation(Attach=.3, pAlone=.5,
            e1sd=1, e2sd=.6, 
            y11=.1, y12=.1, y13=.1, trials=1000)
 
-# Power with 25 reports
-# Running this to see what the power will be if some reports are missed
+# Power with 200 participants and 25 repeated measurements
 Simulation(Attach=.3, pAlone=.5,
            AnxCoef=.2, AvoidCoef=.2,
            AloneCoef=.2,
